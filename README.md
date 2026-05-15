@@ -13,7 +13,7 @@ An AI-powered collaborative notes workspace that transforms raw study notes into
 [![Vercel](https://img.shields.io/badge/Vercel-deployed-000000?style=flat-square&logo=vercel)](https://ai-notes-workspace-alpha.vercel.app)
 [![Render](https://img.shields.io/badge/Render-deployed-46e3b7?style=flat-square&logo=render)](https://render.com)
 
-**[🚀 Live Demo](https://ai-notes-workspace-alpha.vercel.app) · [📖 API Docs](https://your-render-url.onrender.com/docs) · [📂 Sample Outputs](samples/)**
+**[🚀 Live Demo](https://ai-notes-workspace-alpha.vercel.app) · [📂 Sample Outputs](samples/)**
 
 </div>
 
