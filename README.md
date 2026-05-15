@@ -6,13 +6,6 @@ Peblo Study Workspace is an AI-powered collaborative learning platform designed 
 
 <img width="1149" height="1369" alt="ChatGPT Image May 15, 2026, 03_54_44 PM" src="https://github.com/user-attachments/assets/5050342d-c765-4a9e-af2b-7a976124fefb" />
 
-<img width="2559" height="1443" alt="Screenshot 2026-05-15 151117" src="https://github.com/user-attachments/assets/b8efa55d-c885-4cf1-8c9f-373d210ee651" />
-
-<img width="2559" height="1323" alt="Screenshot 2026-05-15 154833" src="https://github.com/user-attachments/assets/6dfcb88b-439c-4ad0-bddd-d2d43534a850" />
-
-<img width="2559" height="1320" alt="Screenshot 2026-05-15 154935" src="https://github.com/user-attachments/assets/ed645c95-8ac7-4355-ac23-89dbe7a82227" />
-
-<img width="2559" height="1311" alt="Screenshot 2026-05-15 155107" src="https://github.com/user-attachments/assets/f18974da-cd7b-48e1-911d-2da787fdada6" />
 
 The platform includes a complete notes management workspace where users can create, edit, archive, categorize, and tag notes. It also supports full-text search and filtering to improve accessibility and organization. Public sharing functionality allows users to generate shareable links for notes.
 
@@ -142,6 +135,15 @@ backend/
 - Score < 60% → review in 1 day
 - Score 60–79% → review in 3 days
 - Score ≥ 80% → review in 7 days
+
+## ScreenShots
+<img width="2559" height="1443" alt="Screenshot 2026-05-15 151117" src="https://github.com/user-attachments/assets/b8efa55d-c885-4cf1-8c9f-373d210ee651" />
+
+<img width="2559" height="1323" alt="Screenshot 2026-05-15 154833" src="https://github.com/user-attachments/assets/6dfcb88b-439c-4ad0-bddd-d2d43534a850" />
+
+<img width="2559" height="1320" alt="Screenshot 2026-05-15 154935" src="https://github.com/user-attachments/assets/ed645c95-8ac7-4355-ac23-89dbe7a82227" />
+
+<img width="2559" height="1311" alt="Screenshot 2026-05-15 155107" src="https://github.com/user-attachments/assets/f18974da-cd7b-48e1-911d-2da787fdada6" />
 
 ## Submission Checklist
 
