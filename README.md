@@ -123,11 +123,7 @@ A clean public view of a shared note — the Peblo Study header, full note conte
 
 ## 🗄️ Database Schema
 
-<div align="center">
 
-![Database Schema](samples/database-diagram.svg)
-
-</div>
 
 ### Tables
 
