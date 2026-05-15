@@ -242,7 +242,7 @@ GET    /api/notes/analytics/stats
 GET    /api/shared/:shareId
 ```
 
-**Sample API responses** → [`samples/api-responses.json`](samples/api-responses.json)
+📄 **Sample API Responses:** [`api-responses.json`](./samples/api-responses.json)
 
 ---
 
