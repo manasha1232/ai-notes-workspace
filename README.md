@@ -36,11 +36,10 @@ The blue-and-white design creates a calm, focused learning environment with full
 ### 🏠 Dashboard
 
 Greets the user by name with the current date. Displays four stat cards — **Total Notes**, **AI Uses**, **Due for Revision**, and **Notes This Week** — a **Revision Queue** showing notes due today, and a **Recent Notes** panel with a quick "Create one" link when empty.
-
-![Dashboard](<img width="2557" height="1313" alt="Screenshot 2026-05-15 164320" src="https://github.com/user-attachments/assets/d26e46a5-97ea-4676-aef6-3c6f9936fa1f" />
+<img width="2557" height="1313" alt="Screenshot 2026-05-15 164320" src="https://github.com/user-attachments/assets/d26e46a5-97ea-4676-aef6-3c6f9936fa1f" />
 
 <img width="2558" height="1305" alt="Screenshot 2026-05-15 164437" src="https://github.com/user-attachments/assets/ec8d587a-af67-428c-8113-973a914e7149" />
-)
+
 
 ---
 
@@ -51,8 +50,8 @@ Three-panel layout:
 - **Centre** — full note editor with title, inline tag pills (`#imp`, `#hard`), a live **share URL bar** with copy button, and a **"Saved ✓"** auto-save indicator in the toolbar.
 - **Right** — **AI Assistant** panel with three actions: **Summarize**, **Flashcards**, and **Generate Quiz**.
 
-![Notes Workspace](<img width="2559" height="1316" alt="Screenshot 2026-05-15 164506" src="https://github.com/user-attachments/assets/1fc02bc1-1e90-4c9a-8e05-07f9d983654b" />
-)
+<img width="2559" height="1316" alt="Screenshot 2026-05-15 164506" src="https://github.com/user-attachments/assets/1fc02bc1-1e90-4c9a-8e05-07f9d983654b" />
+
 
 ---
 
@@ -63,10 +62,10 @@ Progress bar across the top showing position (e.g. "Card 1 of 5"). A large blue 
 On session completion: "All done! 🎉 You reviewed 5 cards · 1 marked as hard" with options to **Review hard cards (1)**, **Restart**, or **Back to Notes**.
 
 | Flashcard Study | Session Complete |
-|:---:|:---:|
-| ![Flashcard Study](<img width="2559" height="1320" alt="Screenshot 2026-05-15 161311" src="https://github.com/user-attachments/assets/eecd3798-193a-4916-9719-508c4c644303" />
-) | ![Flashcard Done](<img width="2559" height="1307" alt="Screenshot 2026-05-15 161354" src="https://github.com/user-attachments/assets/3fc1bceb-b1a9-405e-9bd3-86fa45b3c8f1" />
-) |
+
+<img width="2559" height="1320" alt="Screenshot 2026-05-15 161311" src="https://github.com/user-attachments/assets/eecd3798-193a-4916-9719-508c4c644303" />
+<img width="2559" height="1307" alt="Screenshot 2026-05-15 161354" src="https://github.com/user-attachments/assets/3fc1bceb-b1a9-405e-9bd3-86fa45b3c8f1" />
+
 
 ---
 
@@ -77,8 +76,8 @@ After answering 5 AI-generated MCQs, a results screen shows:
 - A **spaced repetition banner**: "Next revision in 7 days — Based on your score — spaced repetition scheduling"
 - A full **answer breakdown** for each question: correct answers highlighted green, wrong answers in red, plus an explanation below each item
 
-![Quiz Results](<img width="2557" height="1314" alt="Screenshot 2026-05-15 154954" src="https://github.com/user-attachments/assets/aa49cb62-ea98-467e-82f3-b2101254cf1a" />
-)
+<img width="2557" height="1314" alt="Screenshot 2026-05-15 154954" src="https://github.com/user-attachments/assets/aa49cb62-ea98-467e-82f3-b2101254cf1a" />
+
 
 ---
 
@@ -91,8 +90,8 @@ After answering 5 AI-generated MCQs, a results screen shows:
 - **AI Usage** breakdown tile showing total AI tool calls across Summaries · Flashcards · Quizzes
 - **Revision Health** panel — shows "All caught up! No notes pending revision" when the queue is empty
 
-![Analytics](<img width="2559" height="1534" alt="Screenshot 2026-05-15 151129" src="https://github.com/user-attachments/assets/4ddaf83a-e2bc-4934-8c96-afaddc8a2f2e" />
-)
+<img width="2559" height="1534" alt="Screenshot 2026-05-15 151129" src="https://github.com/user-attachments/assets/4ddaf83a-e2bc-4934-8c96-afaddc8a2f2e" />
+
 
 ---
 
@@ -100,8 +99,8 @@ After answering 5 AI-generated MCQs, a results screen shows:
 
 A clean public view of a shared note — the Peblo Study header, full note content rendered as plain text, and a blue CTA banner at the bottom: **"Want AI summaries for your own notes? — Summarize, quiz, and schedule revisions — free forever → Try Peblo Study free"**. No login required for viewers.
 
-![Shared Note](<img width="2559" height="1311" alt="Screenshot 2026-05-15 155107" src="https://github.com/user-attachments/assets/4256b648-a237-46a2-8490-db8b7f04a14a" />
-)
+<img width="2559" height="1311" alt="Screenshot 2026-05-15 155107" src="https://github.com/user-attachments/assets/4256b648-a237-46a2-8490-db8b7f04a14a" />
+
 
 ---
 
