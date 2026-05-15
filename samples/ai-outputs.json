@@ -1,0 +1,124 @@
+{
+  "note_used": {
+    "title": "Photosynthesis — Light & Dark Reactions",
+    "content": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesise nutrients from carbon dioxide and water. It involves two main stages:\n\n1. LIGHT-DEPENDENT REACTIONS (Thylakoid membrane)\n- Chlorophyll absorbs sunlight\n- Water molecules are split (photolysis): 2H2O → 4H+ + 4e- + O2\n- ATP and NADPH are produced\n- The Z-scheme describes electron flow through PSI and PSII\n\n2. LIGHT-INDEPENDENT REACTIONS / CALVIN CYCLE (Stroma)\n- CO2 is fixed by RuBisCO enzyme\n- ATP and NADPH from light reactions are used\n- G3P (glyceraldehyde-3-phosphate) is produced\n- G3P is converted to glucose\n\nKey equation: 6CO2 + 6H2O + light energy → C6H12O6 + 6O2\n\nFactors affecting photosynthesis:\n- Light intensity\n- CO2 concentration\n- Temperature\n- Water availability\n\nC3 vs C4 plants:\n- C3: First product is 3-carbon compound (3-PGA) — e.g. wheat, rice\n- C4: First product is 4-carbon compound (OAA) — e.g. maize, sugarcane — more efficient in hot climates"
+  },
+
+  "ai_summary": {
+    "model": "llama-3.3-70b-versatile",
+    "provider": "Groq API",
+    "output": {
+      "summary": "Photosynthesis converts light energy into chemical energy through two sequential stages: light-dependent reactions in thylakoid membranes that produce ATP and NADPH, and the Calvin cycle in the stroma that uses these products to fix CO2 into glucose. The overall equation produces one glucose molecule and six oxygen molecules for every six CO2 molecules consumed.",
+      "key_points": [
+        "Light reactions occur in thylakoid membranes using chlorophyll to absorb sunlight",
+        "Water is split during photolysis, releasing oxygen as a byproduct",
+        "ATP and NADPH produced in light reactions power the Calvin cycle",
+        "RuBisCO enzyme fixes CO2 into 3-carbon G3P molecules during the Calvin cycle",
+        "C4 plants have a more efficient photosynthesis pathway suited to hot climates"
+      ],
+      "action_items": [
+        "Draw and label the complete Z-scheme of electron transport",
+        "Memorise all steps of the Calvin cycle with intermediates",
+        "Compare C3 and C4 plants with examples",
+        "Practice the net equation and be able to derive it"
+      ],
+      "suggested_title": "Photosynthesis — Light & Dark Reactions Complete Notes"
+    }
+  },
+
+  "ai_flashcards": {
+    "model": "llama-3.3-70b-versatile",
+    "provider": "Groq API",
+    "output": [
+      {
+        "front": "Where do the light-dependent reactions of photosynthesis occur?",
+        "back": "In the thylakoid membranes of chloroplasts. The stacked thylakoids form grana, which maximise surface area for light absorption."
+      },
+      {
+        "front": "What is photolysis and what does it produce?",
+        "back": "Photolysis is the splitting of water molecules using light energy: 2H₂O → 4H⁺ + 4e⁻ + O₂. It produces protons, electrons, and oxygen gas."
+      },
+      {
+        "front": "What enzyme fixes CO2 in the Calvin cycle?",
+        "back": "RuBisCO (Ribulose-1,5-bisphosphate carboxylase/oxygenase) — the most abundant enzyme on Earth."
+      },
+      {
+        "front": "What is the net equation for photosynthesis?",
+        "back": "6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂"
+      },
+      {
+        "front": "How do C4 plants differ from C3 plants?",
+        "back": "C4 plants produce a 4-carbon compound (oxaloacetate) as the first CO2 fixation product, compared to the 3-carbon compound (3-PGA) in C3 plants. C4 is more efficient in hot, sunny climates. Examples: maize, sugarcane (C4); wheat, rice (C3)."
+      }
+    ]
+  },
+
+  "ai_quiz": {
+    "model": "llama-3.3-70b-versatile",
+    "provider": "Groq API",
+    "output": [
+      {
+        "question": "In which part of the chloroplast does the Calvin cycle take place?",
+        "options": [
+          "A) Thylakoid membrane",
+          "B) Outer membrane",
+          "C) Stroma",
+          "D) Granum"
+        ],
+        "correct": 2,
+        "explanation": "The Calvin cycle (light-independent reactions) occurs in the stroma of the chloroplast, using ATP and NADPH produced in the thylakoid membranes."
+      },
+      {
+        "question": "Which pigment is primarily responsible for absorbing light energy during photosynthesis?",
+        "options": [
+          "A) Carotenoid",
+          "B) Chlorophyll",
+          "C) Xanthophyll",
+          "D) Phycocyanin"
+        ],
+        "correct": 1,
+        "explanation": "Chlorophyll is the primary photosynthetic pigment. It absorbs red and blue light most efficiently and reflects green light, which is why plants appear green."
+      },
+      {
+        "question": "What is produced during the light-dependent reactions that is used in the Calvin cycle?",
+        "options": [
+          "A) Glucose and water",
+          "B) CO2 and RuBisCO",
+          "C) ATP and NADPH",
+          "D) G3P and oxygen"
+        ],
+        "correct": 2,
+        "explanation": "Light-dependent reactions produce ATP and NADPH, which are then used as energy sources to drive the Calvin cycle in the stroma."
+      },
+      {
+        "question": "Which of the following is an example of a C4 plant?",
+        "options": [
+          "A) Wheat",
+          "B) Rice",
+          "C) Barley",
+          "D) Maize"
+        ],
+        "correct": 3,
+        "explanation": "Maize (corn) is a classic C4 plant. C4 plants are more efficient in hot climates because they reduce photorespiration. Wheat, rice, and barley are C3 plants."
+      },
+      {
+        "question": "What happens to water molecules during photolysis?",
+        "options": [
+          "A) They are converted to CO2",
+          "B) They are split into H+, electrons, and O2",
+          "C) They combine with glucose",
+          "D) They are stored in the stroma"
+        ],
+        "correct": 1,
+        "explanation": "During photolysis, water molecules are split using light energy: 2H₂O → 4H⁺ + 4e⁻ + O₂. The released oxygen is the source of the O2 we breathe."
+      }
+    ]
+  },
+
+  "spaced_repetition_result": {
+    "quiz_score": 80,
+    "next_revision_days": 7,
+    "next_revision_date": "2026-05-22T15:30:00",
+    "logic": "Score ≥ 80% → review in 7 days (high retention). Score 60–79% → 3 days. Score < 60% → 1 day."
+  }
+}

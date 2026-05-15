@@ -1,0 +1,199 @@
+{
+  "POST /api/auth/signup": {
+    "request": {
+      "name": "Arjun Sharma",
+      "email": "arjun@example.com",
+      "password": "securepass123"
+    },
+    "response": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ZjNkYTIxYi00NTZlLTQ4Y2MtYjNmMS1hYzE2ZTkxMjM0NTYiLCJleHAiOjE3NjMyNzk5OTl9.abc123",
+      "user": {
+        "id": "8f3da21b-456e-48cc-b3f1-ac16e9123456",
+        "name": "Arjun Sharma",
+        "email": "arjun@example.com"
+      }
+    }
+  },
+
+  "POST /api/auth/login": {
+    "request": {
+      "email": "arjun@example.com",
+      "password": "securepass123"
+    },
+    "response": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ZjNkYTIxYi00NTZlLTQ4Y2MtYjNmMS1hYzE2ZTkxMjM0NTYiLCJleHAiOjE3NjMyNzk5OTl9.xyz789",
+      "user": {
+        "id": "8f3da21b-456e-48cc-b3f1-ac16e9123456",
+        "name": "Arjun Sharma",
+        "email": "arjun@example.com"
+      }
+    }
+  },
+
+  "GET /api/notes": {
+    "query_params": "?search=photosynthesis&category=Study",
+    "response": [
+      {
+        "id": "NOTE_001",
+        "title": "Photosynthesis — Light & Dark Reactions",
+        "content": "Photosynthesis occurs in two stages...",
+        "category": "Study",
+        "tags": ["biology", "class12", "ncert"],
+        "is_archived": false,
+        "is_public": true,
+        "share_id": "a3f8b2c1",
+        "ai_summary": "Photosynthesis converts light energy to glucose through light-dependent and light-independent reactions in chloroplasts.",
+        "ai_key_points": "[\"Light reactions occur in thylakoids\", \"Calvin cycle occurs in stroma\", \"Net output: glucose + oxygen\"]",
+        "ai_action_items": "[\"Draw a diagram of the Calvin cycle\", \"Revise Z-scheme of light reactions\"]",
+        "ai_uses": 3,
+        "quiz_score": 80,
+        "revision_count": 2,
+        "next_revision": "2026-05-22T10:00:00",
+        "created_at": "2026-05-10T09:30:00",
+        "updated_at": "2026-05-15T14:22:00"
+      },
+      {
+        "id": "NOTE_002",
+        "title": "Cell Division — Mitosis vs Meiosis",
+        "content": "Mitosis produces two identical diploid cells...",
+        "category": "Study",
+        "tags": ["biology", "cells"],
+        "is_archived": false,
+        "is_public": false,
+        "share_id": null,
+        "ai_summary": null,
+        "ai_uses": 0,
+        "quiz_score": null,
+        "revision_count": 0,
+        "next_revision": null,
+        "created_at": "2026-05-12T11:00:00",
+        "updated_at": "2026-05-14T16:45:00"
+      }
+    ]
+  },
+
+  "POST /api/notes": {
+    "request": {
+      "title": "Sprint Planning Notes",
+      "content": "Discussed Q3 product goals...",
+      "category": "Work",
+      "tags": ["sprint", "planning"]
+    },
+    "response": {
+      "id": "NOTE_003",
+      "title": "Sprint Planning Notes",
+      "content": "Discussed Q3 product goals...",
+      "category": "Work",
+      "tags": ["sprint", "planning"],
+      "is_archived": false,
+      "is_public": false,
+      "share_id": null,
+      "ai_summary": null,
+      "ai_uses": 0,
+      "revision_count": 0,
+      "next_revision": null,
+      "created_at": "2026-05-15T15:00:00",
+      "updated_at": "2026-05-15T15:00:00"
+    }
+  },
+
+  "PATCH /api/notes/NOTE_001": {
+    "request": {
+      "title": "Photosynthesis — Updated Notes",
+      "tags": ["biology", "class12", "ncert", "important"]
+    },
+    "response": {
+      "id": "NOTE_001",
+      "title": "Photosynthesis — Updated Notes",
+      "tags": ["biology", "class12", "ncert", "important"],
+      "updated_at": "2026-05-15T15:30:00"
+    }
+  },
+
+  "POST /api/notes/NOTE_001/summarize": {
+    "response": {
+      "summary": "Photosynthesis is the process by which plants convert light energy into chemical energy stored as glucose. It occurs in two stages: the light-dependent reactions in the thylakoid membranes and the Calvin cycle in the stroma.",
+      "key_points": [
+        "Light reactions split water molecules and produce ATP and NADPH",
+        "Calvin cycle uses CO2 to produce glucose (G3P)",
+        "Chlorophyll absorbs red and blue light most efficiently",
+        "Net equation: 6CO2 + 6H2O + light → C6H12O6 + 6O2"
+      ],
+      "action_items": [
+        "Draw and label the Z-scheme diagram",
+        "Memorise the steps of the Calvin cycle",
+        "Compare C3 vs C4 plants"
+      ],
+      "suggested_title": "Photosynthesis — Light & Dark Reactions"
+    }
+  },
+
+  "POST /api/notes/NOTE_001/share": {
+    "response": {
+      "share_id": "a3f8b2c1",
+      "url": "/share/a3f8b2c1"
+    }
+  },
+
+  "GET /api/shared/a3f8b2c1": {
+    "response": {
+      "title": "Photosynthesis — Light & Dark Reactions",
+      "content": "Photosynthesis occurs in two stages...",
+      "category": "Study",
+      "tags": ["biology", "class12", "ncert"],
+      "ai_summary": "Photosynthesis converts light energy to glucose through light-dependent and light-independent reactions.",
+      "ai_key_points": [
+        "Light reactions occur in thylakoids",
+        "Calvin cycle occurs in stroma",
+        "Net output: glucose + oxygen"
+      ],
+      "updated_at": "2026-05-15T14:22:00"
+    }
+  },
+
+  "POST /api/notes/NOTE_001/quiz-result?score=80": {
+    "response": {
+      "next_revision": "2026-05-22T15:30:00",
+      "days_until": 7,
+      "score": 80
+    }
+  },
+
+  "GET /api/notes/revision/queue": {
+    "response": [
+      {
+        "id": "NOTE_004",
+        "title": "DNA Replication",
+        "quiz_score": 55,
+        "revision_count": 1,
+        "next_revision": "2026-05-15T08:00:00",
+        "category": "Study",
+        "tags": ["biology", "genetics"]
+      }
+    ]
+  },
+
+  "GET /api/notes/analytics/stats": {
+    "response": {
+      "total_notes": 12,
+      "total_ai_uses": 27,
+      "weekly_count": 4,
+      "revision_queue_count": 2,
+      "top_tags": [
+        ["biology", 6],
+        ["class12", 4],
+        ["ncert", 3],
+        ["important", 2],
+        ["sprint", 1]
+      ],
+      "recent_notes": [
+        {
+          "id": "NOTE_001",
+          "title": "Photosynthesis — Light & Dark Reactions",
+          "category": "Study",
+          "updated_at": "2026-05-15T14:22:00"
+        }
+      ]
+    }
+  }
+}
