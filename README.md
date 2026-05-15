@@ -1,6 +1,29 @@
 # Peblo AI Study Workspace
 
 An AI-powered collaborative notes workspace that transforms raw notes into summaries, flashcards, quizzes, and smart revision schedules.
+Peblo Study Workspace is an AI-powered collaborative learning platform designed to help students organize, understand, and revise notes more effectively. The application transforms raw study notes into intelligent learning resources such as AI-generated summaries, flashcards, quizzes, key concepts, and action items using Groq API with the Llama 3.3 model.
+
+
+<img width="1149" height="1369" alt="ChatGPT Image May 15, 2026, 03_54_44 PM" src="https://github.com/user-attachments/assets/5050342d-c765-4a9e-af2b-7a976124fefb" />
+
+<img width="2559" height="1443" alt="Screenshot 2026-05-15 151117" src="https://github.com/user-attachments/assets/b8efa55d-c885-4cf1-8c9f-373d210ee651" />
+
+<img width="2559" height="1323" alt="Screenshot 2026-05-15 154833" src="https://github.com/user-attachments/assets/6dfcb88b-439c-4ad0-bddd-d2d43534a850" />
+
+<img width="2559" height="1320" alt="Screenshot 2026-05-15 154935" src="https://github.com/user-attachments/assets/ed645c95-8ac7-4355-ac23-89dbe7a82227" />
+
+<img width="2559" height="1311" alt="Screenshot 2026-05-15 155107" src="https://github.com/user-attachments/assets/f18974da-cd7b-48e1-911d-2da787fdada6" />
+
+The platform includes a complete notes management workspace where users can create, edit, archive, categorize, and tag notes. It also supports full-text search and filtering to improve accessibility and organization. Public sharing functionality allows users to generate shareable links for notes.
+
+A key feature of the project is its spaced repetition system inspired by active recall learning techniques. After attempting quizzes, users receive personalized revision schedules based on their scores. Lower scores trigger quicker revision intervals, while higher scores extend the revision period to improve long-term retention.
+
+Peblo also provides an analytics dashboard that tracks total notes, AI usage, revision queues, learning activity, and frequently used tags. The interface supports both dark mode and light mode to reduce eye strain and improve user comfort during long study sessions. The blue-and-white design theme was chosen to create a calm and focused learning environment with easy navigation.
+
+The frontend is built using React, Vite, and Tailwind CSS, while the backend is developed using FastAPI and SQLAlchemy. Authentication is implemented using JWT and bcrypt for secure login and session management. The application uses SQLite during development and Supabase PostgreSQL in production. Deployment is handled using Vercel for the frontend and Render for the backend.
+
+Overall, Peblo Study Workspace combines AI-powered content generation, smart revision scheduling, analytics, and modern UI/UX principles to create a personalized and efficient digital learning ecosystem for students.
+
 
 ## Features
 
