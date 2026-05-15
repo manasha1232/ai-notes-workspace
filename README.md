@@ -401,7 +401,7 @@ All submission samples are in the [`samples/`](samples/) folder:
 
 | File | Contents |
 |---|---|
-| [`database-diagram.svg`](samples/database-diagram.svg) | Visual entity-relationship diagram |
+| [`database-diagram.svg`](samples/database_diagram.png) | Visual entity-relationship diagram |
 | [`api-responses.json`](samples/api-responses.json) | Example responses for all 14 endpoints |
 | [`ai-outputs.json`](samples/ai-outputs.json) | Real Groq AI-generated summary, flashcards, quiz |
 | [`database-schema.sql`](samples/database-schema.sql) | Full SQL schema with sample INSERT data |
